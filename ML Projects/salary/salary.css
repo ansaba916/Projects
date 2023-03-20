@@ -1,0 +1,16 @@
+/*#image{
+    background-image:url(./static/image/image1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    width: 1300px;
+}*/
+#div1{
+    text-align: center;
+}
+#div2{
+    text-align: center;
+}
+#div3{
+    text-align: center;
+}

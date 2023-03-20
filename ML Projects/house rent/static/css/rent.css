@@ -1,0 +1,13 @@
+#image{
+    text-align: center;
+    background-image: url(../images/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    width: 1250px;
+    text-align: center;
+}
+#div1{
+    text-align: center;
+    color: azure;
+}

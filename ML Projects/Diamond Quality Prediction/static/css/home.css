@@ -1,0 +1,42 @@
+#head{
+    text-align: center;
+    text-decoration: underline;
+}
+#bac{
+    text-align: center;
+    padding-bottom: 2cm;
+    
+    
+}
+.div{
+    margin-top: 2cm;
+    padding-bottom: 2cm;
+    width: 3cm;
+    padding-right: 30px;
+}
+.text{
+    padding-bottom: 4cm;
+    padding-right: 10px;
+    margin-right: 40px;
+    text-align: right;
+    float: right;
+    padding-bottom: 30px;
+
+}
+#main{
+    padding-top: 40px;
+}
+#div2{
+   
+    float: right;
+    text-align: right;
+}
+#div4{
+   
+    float: right;
+    text-align: right;
+}
+#div1{
+    text-align: center;
+    margin-left: 500px;
+}

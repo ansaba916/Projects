@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="breast.css">
+</head>
+<body>
+    
+    <div style="background-image: url(../static/image/pxl.webp); height: 1500px; background-size: cover;">
+    <center>
+        <form action="{{url_for('predict)}}" method="post" id="form">
+        <h1 id="image">Breast Cancer Prediction</h1>
+        <input type="text" placeholder="Enter your age" name="text1"><br><br>
+        <input type="text" placeholder="Enter your tumor_size" name="text2"><br><br>
+        <input type="text" placeholder="Enter your inv-nodes" name="text3"><br><br>
+        <input type="text" placeholder="Enter your deg-malig" name="text4"><br><br>
+        <input type="text" placeholder="Enter your breast" name="text5"><br><br>
+        <input type="text" placeholder="Enter your class" name="text6"><br><br>
+        <input type="submit" value="submit">
+
+
+
+
+
+
+    </form>
+    <h2>{{prediction_text}}</h2>
+
+    </center>
+
+    </div>
+</body>
+</html>

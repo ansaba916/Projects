@@ -1,0 +1,16 @@
+#image{
+   
+    min-height: 800px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+#head{
+    text-align: center;
+
+}
+#submit{
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <div style="background-image: url(../static/image/form\ 2.webp);background-repeat: no-repeat;background-size: cover;height: 700px;width: 1250px;">
+        <a class="div" href="{{url_for('home')}}"><button style="background-color: deepskyblue; border-radius: 4px; margin-top: 2cm; width: 2.5cm; height: 1cm;"  type="submit">HOME</button></a>
+        <a class="div" href="{{url_for('home1')}}"><button style="background-color: deepskyblue; border-radius: 4px; margin-top: 2cm; width: 2.5cm; height: 1cm;"  type="submit">LOGIN</button></a>
+        <a class="div" href="{{url_for('home2')}}"><button style="background-color: deepskyblue; border-radius: 4px; margin-top: 2cm; width: 2.5cm; height: 1cm;"  type="submit">SIGN UP</button></a>
+        
+        <form action="{{url_for('predict')}}" method="post">
+        <h2 style="padding-right: 100px; padding-top: 2.5cm; text-align: center;">Fill the Form</h2>
+        
+        <div style="width: 50%; position: absolute; right: 400px;">
+           
+            <input type="text" name="text1" placeholder="Enter the year"><br><br>
+            <select name="text2" id="" style="width: 4.5cm;"><br><br>
+                <option value="">Age Group</option><br><br>
+                <option value="0">13-15</option>
+                <option value="1">16-17</option>
+
+            </select><br><br>
+            <select name="text3" id="" style="width: 4.5cm;"><br><br>
+                <option value="">Sex</option><br><br>
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select><br><br>
+            <input type="text" name="text4" placeholder="Currently drink alcohol"><br><br>
+            <input type="text" name="text5" placeholder="Really get drunk"><br><br>
+            <input type="text" name="text6" placeholder="Enter the over weight"><br><br>
+            <input type="text" name="text7" placeholder="Use Marijuana"><br><br>
+            <input type="Submit" value="submit" style="width: 4.5cm; height: 1cm;background-color: green;"">
+
+
+        </div>
+        <div style="width: 50%; position: absolute; left: 800px;">
+            <input type="text" name="text8" placeholder="Have understanding parents"><br><br>
+            <input type="text" name="text9" placeholder="Missed classes without permission"><br><br>
+            <input type="text" name="text10" placeholder="Had sexual relation"><br><br>
+            <input type="text" name="text11" placeholder="Smoke cig currently"><br><br>
+            <input type="text" name="text12" placeholder="Had fights"><br><br>
+            <input type="text" name="text13" placeholder="Bullied"><br><br>
+            <input type="text" name="text14" placeholder="Got seriously enjured"><br><br>
+            <input type="text" name="text15" placeholder="No closefriends"><br><br>
+
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stroke.css">
+</head>
+<body>
+    <div style="background-image: url(../static/image/stroke2.webp);background-size: cover;background-repeat: no-repeat;width: 1300px; height: 800px;">
+    <center>
+        <form action="{{url_for('predict')}}" method="post" id="form">
+        <h2>STROKE PREDICTION TEST</h2>
+        <select name="text1" id="gender">
+            <option value="">Gender</option>
+            <option value="0">male</option>
+            <option value="1">female</option>
+        </select><br><br>
+        <!-- <input type="text" name="text1" placeholder="gender"><br><br> -->
+
+
+        <input type="text" name="text2" placeholder="age"><br><br>
+        <input type="text" name="text3" placeholder="hypertension"><br><br>
+        <input type="text" name="text4" placeholder="heart_disease"><br><br>
+        <select name="text5" id="merital">
+            <option value="">Merital status</option>
+            <option value="1">married</option>
+            <option value="0">never married</option>
+        </select><br><br>
+        <!-- <input type="text" name="text5" placeholder="ever_married"><br><br> -->
+        <input type="text" name="text6" placeholder="avg_glucose_level"><br><br>
+        <input type="text" name="text7" placeholder="bmi"><br><br>
+        <select name="text8" id="smoking">
+            <option value="">smoking status</option>
+            <option value="0">unknown</option>
+            <option value="1">formly smoked</option>
+            <option value="2">never smoked</option>
+            <option value="3">smokes</option>
+        </select><br><br>
+        <!-- <input type="text" name="text8" placeholder="smoking_status"><br><br> -->
+        <input type="submit" value="submit">
+        </form>
+   
+    </center>
+
+
+    </div>
+</body>
+</html>

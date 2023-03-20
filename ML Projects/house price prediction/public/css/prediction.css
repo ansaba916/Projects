@@ -1,0 +1,26 @@
+/* #image{
+    /*background-image: url(../image/3.jpg);*?
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}*/
+h2{
+    text-align: center;
+}
+
+#div1{
+    min-height: 575px;
+    background-image: url(../image/3.jpg);
+    height: 810px;
+    width: 1300px;
+}
+#id{
+    text-align: center;
+   
+}
+#submit{
+    text-align: center;
+   
+
+}

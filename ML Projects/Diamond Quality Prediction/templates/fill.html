@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/home.css">
+</head>
+<body>
+    <div style="background-image: url(../static/image/bg2.webp);background-repeat: no-repeat;background-size: cover;width: 1250px;height: 800px;">
+        <form action="{{url_for('predict')}}" method="post" id="">
+        <h1 style="color: whitesmoke; padding-top: 50px; text-align: center;">FILL THE BLANK</h1>
+        <a class="text" href="{{url_for('home')}}"><button style="background-color: green; border-radius: 4px; margin-top: 2cm; width: 3cm; height: 1.5cm;"  type="submit">HOME</button></a>
+        <a class="text" href="{{url_for('home2')}}"><button style="background-color: green; border-radius: 4px; margin-top: 2cm; width: 3cm; height: 1.5cm;"  type="submit">JEWELLERY</button></a>
+        <a class="text" href="{{url_for('home1')}}"><button style="background-color: green; border-radius: 4px; margin-top: 2cm; width: 3cm; height: 1.5cm;"  type="submit">REGISTER</button></a>
+        
+
+
+
+
+        <div id="main">
+            <input type="text" name="text1" placeholder="Enter the carat number"><br><br>
+            <select name="text2" id="" style="width: 4.5cm;"><br><br>
+                <option value="">color</option><br><br>
+                <option value="0">D</option><br><br>
+                <option value="1">E</option><br><br>
+                <option value="2">G</option>
+                <option value="3">F</option>
+                <option value="4">H</option>
+                <option value="5">I</option>
+                <option value="6">J</option>
+            </select><br><br>
+            <select name="text3" id="" style="width: 4.5cm;"><br><br>
+                <option value="">clarity</option><br><br>
+                <option value="0">IF</option><br><br>
+                <option value="1">VVS1</option><br><br>
+                <option value="2">SI1</option>
+                <option value="3">SI2</option>
+                <option value="4">VVS1</option>
+                <option value="5">VS2</option>
+                <option value="6">I1</option>
+                <option value="7">VVS2</option>
+            </select><br><br>
+            <input type="text" name="text4" placeholder="Enter the depth number"><br><br>
+            <input type="text" name="text5" placeholder="Enter the table number"><br><br>
+            <input type="text" name="text6" placeholder="Enter the price"><br><br>
+            <input type="text" name="text7" placeholder="Enter the X number"><br><br>
+            <input type="text" name="text8" placeholder="Enter the Y number"><br><br>
+            <input type="text" name="text9" placeholder="Enter the Z number"><br><br>
+            
+            <input style="border-radius: 5px; background-color: green; width: 2cm; height: 1cm;" type="submit" value="submit">
+           
+        </div>
+        </form>
+
+    </div>
+</body>
+</html>

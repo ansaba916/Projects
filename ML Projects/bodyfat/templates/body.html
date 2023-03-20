@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body style="background-image: url(../static/image/bg.webp); background-repeat: no-repeat;background-size: cover;height: 800px;width: 800px;">
+    <center>
+    <div class="center">
+        <form action="{{url_for('predict')}}" method="post" id="form">
+    
+        <h2 id="head">BodyFat Prediction</h2>
+
+        <input type="text" name="text1" placeholder="Enter your Density Fat"><br><br>
+        <input type="text" name="text2" placeholder="Enter your Age"><br><br>
+        <input type="text" name="text3" placeholder="Enter your Weight"><br><br>
+        <input type="text" name="text4" placeholder="Enter your Height"><br><br>
+        <input type="text" name="text5" placeholder="Enter your Neck Fat"><br><br>
+        <input type="text" name="text6" placeholder="Enter your Chest Fat"><br><br>
+        <input type="text" name="text7" placeholder="Enter your Abdomen Fat"><br><br>
+        <input type="text" name="text8" placeholder="Enter your Hip Fat"><br><br>
+        <input type="text" name="text9" placeholder="Enter your Thigh Fat"><br><br>
+        <input type="text" name="text10" placeholder="Enter your Knee Fat"><br><br>
+        <input type="text" name="text11" placeholder="Enter your Ankle Fat"><br><br>
+        <input type="text" name="text12" placeholder="Enter your Biceps Fat"><br><br>
+        <input type="text" name="text13" placeholder="Enter your Forearm Fat"><br><br>
+        <input type="text" name="text14" placeholder="Enter your Wrist Fat"><br><br>
+        <input type="submit" value="submit">
+    
+         
+
+
+
+
+    </form>
+    </div>
+</center> 
+</body>
+</html>

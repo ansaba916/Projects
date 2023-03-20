@@ -1,0 +1,10 @@
+/* #background{
+    background-image: url(../static/image/stroke2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    width: 1250px;
+} */
+select{
+    width: 175px;
+}

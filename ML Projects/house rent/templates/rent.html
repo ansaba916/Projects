@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/rent.css">
+</head>
+<body>
+    <div id="image">
+        <h2 id="div1">House Rent</h2>
+        <form action="{{url_for('predict')}}" method="post" class="form">
+        <center>
+        <input type="text" name="text1" placeholder="Number of BMH"><br><br>
+        <input type="text" name="text2" placeholder="Number of size"><br><br>
+        <input type="text" name="text3" placeholder="Number of Bedroom"><br><br>
+        <input type="submit" value="submit">
+        </center>
+    </form>
+    <h2>{{prediction_text}}</h2>
+
+
+    </div>
+</body>
+</html>

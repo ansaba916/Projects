@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/home.css">
+</head>
+<body>
+    <div id="main" style="background-image: url(../static/image/form2.jpeg); height: 900px;width: 1250px;background-repeat: no-repeat;background-size: cover;">
+        <form action="{{url_for('predict')}}" method="post">
+        <h2 id="headline">Weight Prediction</h2>
+        <select style="width: 4.5cm;" name="text1" id=""><br><br>
+            <option value="">Species</option>
+            <option value="0">Bream</option>
+            <option value="1">Parkki</option>
+            <option value="2">Perch</option>
+            <option value="3">Pike</option>
+            <option value="4">Roach</option>
+            <option value="5">Smet</option>
+            <option value="6">Whitefish</option>
+
+        </select><br><br>
+        <input type="text" name="text2" placeholder="Enter the Length 1"><br><br>
+        <input type="text" name="text3" placeholder="Enter the Length 2"><br><br>
+        <input type="text" name="text4" placeholder="Enter the Length 3"><br><br>
+        <input type="text" name="text5" placeholder="Enter the Height"><br><br>
+        <input type="text" name="text6" placeholder="Enter the Width"><br><br>
+        <input style="width: 4.5cm; background-color: green;" type="Submit" value="Submit">
+        </form>
+        
+    </div>
+</body>
+</html>
